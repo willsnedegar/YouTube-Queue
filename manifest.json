@@ -1,0 +1,12 @@
+{
+  "name": "Youtube Queue",
+  "version": "1.0",
+  "description": "An extension that allows users to create a queue of youtube videos",
+  "permissions": ["https://www.googleapis.com/*", "contextMenus","webNavigation", "storage"],
+  "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
+  "background": {
+      "scripts": ["listen.js"],
+      "persistent": false
+    },
+  "manifest_version": 2
+}
